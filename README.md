@@ -30,3 +30,8 @@ press "esc"(switch edit from insert mode) then ":" (Command mode) then "q" (quit
    
 6. Switch to a branch 
    ```git checkout branch_name```
+7. You can see all branches created by using 
+   ```git branch```
+8. Update your branch when the original branch from official repository has been updated :
+   ```git fetch [name_of_your_remote]```
+   
