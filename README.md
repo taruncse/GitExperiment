@@ -19,4 +19,4 @@ git push -u origin master
 ```
 Incase of Android studio command line if you writ only ```git commit``` and you want to exite without doing anyting then you have to follow the following steps, 
 
-press "esc" then ":" then "q" then enter (as it is a VIM Editor)
+press "esc"(switch edit from insert mode) then ":" (Command mode) then "q" (quit command) then enter (as it is a VIM Editor)
