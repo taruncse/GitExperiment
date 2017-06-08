@@ -35,3 +35,5 @@ press "esc"(switch edit from insert mode) then ":" (Command mode) then "q" (quit
 8. Update your branch when the original branch from official repository has been updated :
    ```git fetch [name_of_your_remote]```
    
+9. To remove a file from git stage (if only a file then remove -r) 
+    ```git rm -r --cached <NAME_OF_THE_DIRECTORY>```
