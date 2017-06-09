@@ -38,3 +38,4 @@ press "esc"(switch edit from insert mode) then ":" (Command mode) then "q" (quit
 9. To remove a file from git stage (if only a file then remove -r) 
     ```git rm -r --cached <NAME_OF_THE_DIRECTORY>```
 10. Change your remote's URL ```git remote set-url origin your_remote_url```
+11. If you just inited it, you can just delete .git. ```rm -rf .git```
