@@ -40,3 +40,8 @@ press "esc"(switch edit from insert mode) then ":" (Command mode) then "q" (quit
 10. Change your remote's URL ```git remote set-url origin your_remote_url```
 11. Verify that the remote URL has changed. ```git remote -v```
 12. If you just inited it, you can just delete .git. ```rm -rf .git```
+13. Add git tag on your last commit ```git tag -a GIVE_A_VERSION GIT_COMMIT_ID -m "Message here" ```
+    Push a tag ```git push --tags origin master```
+    Show all tags ```git tag``
+    Delete tag from local ```git tag -d TAG_VERSION/ID```
+    Delete tag from remote ```git push --delete origin tagName```
