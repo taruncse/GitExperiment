@@ -44,7 +44,7 @@ press "esc"(switch edit from insert mode) then ":" (Command mode) then "q" (quit
 
     Push a tag ```git push --tags origin master```
     
-    Show all tags ```git tag``
+    Show all tags ```git tag```
     
     Delete tag from local ```git tag -d TAG_VERSION/ID```
     
