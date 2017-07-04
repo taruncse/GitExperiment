@@ -49,3 +49,6 @@ press "esc"(switch edit from insert mode) then ":" (Command mode) then "q" (quit
     Delete tag from local ```git tag -d TAG_VERSION/ID```
     
     Delete tag from remote ```git push --delete origin tagName```
+14. To unstage the file which is added by git add command 
+    ```git reset <filePath>``` (For a specific file)
+    ```git reset``` (Forall file)
