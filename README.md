@@ -54,3 +54,7 @@ press "esc"(switch edit from insert mode) then ":" (Command mode) then "q" (quit
     ```git reset <filePath>``` (For a specific file)
     
     ```git reset``` (For all file)
+
+15. Checkout and create a branch from a existing tag:
+
+   ```git checkout tags/<tag_name> -b <branch_name> ```
