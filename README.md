@@ -58,3 +58,6 @@ press "esc"(switch edit from insert mode) then ":" (Command mode) then "q" (quit
 15. Checkout and create a branch from a existing tag:
 
    ```git checkout tags/<tag_name> -b <branch_name> ```
+   
+16. Get all tags
+   ```git tag```
