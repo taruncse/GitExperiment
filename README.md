@@ -59,9 +59,10 @@ press "esc"(switch edit from insert mode) then ":" (Command mode) then "q" (quit
 
    ```git checkout tags/<tag_name> -b <branch_name> ```
    
-16. Get all tags
+16. Show all tags
    ```git tag```
-   
+    Show all remote tags
+   ```git ls-remote --tags origin```
 17. Create tag
     ```git tag -a Tag_Name -m "Message"```    
 19. Push all tags 
