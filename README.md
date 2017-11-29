@@ -64,3 +64,5 @@ press "esc"(switch edit from insert mode) then ":" (Command mode) then "q" (quit
    
 17. Create tag
     ```git tag -a Tag_Name -m "Message"```    
+19. Push all tags 
+    ```git push --tags```    
