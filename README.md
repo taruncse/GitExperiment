@@ -1,7 +1,7 @@
 # GitExperiment
 Just for git practise
 create a new repository on the command line
-*
+
 ```
 echo "# GitExperiment" >> README.md
 git init 
@@ -17,9 +17,11 @@ git push -u origin master
 git remote add origin https://github.com/taruncse/GitExperiment.git 
 git push -u origin master
 ```
-* Incase of Android studio command line if you writ only ```git commit``` and you want to exit from editor, then you have to follow the following steps, 
+* Incase of Android studio command line if you writ only ```git commit``` and you want to exit from editor, 
+  then you have to follow the following steps, 
 
-press "esc"(switch edit from insert mode) then ":" (Command mode) then "q" (quit command) then enter (as it is a VIM Editor)
+  press "esc"(switch edit from insert mode) then ":" (Command mode) then "q" (quit command) then enter 
+  (as it is a VIM Editor)
 
 * Create the branch on your local machine and switch in this branch :
 
