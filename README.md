@@ -71,5 +71,5 @@ git push -u origin master
     ```git push --tags```
 * Remove git ignore cache.
    ```git rm -r --cached ```  
-* If you want to add your missing file with your last commit without modifying your commit message.
+* If you want to add your missing file with your last commit without modifying your commit message.   
   ```git commit --amend --no-edit ```
