@@ -77,6 +77,6 @@ git push -u origin master
   But if you want to change the commit message too.  
    ```git commit --amend -m "New commit message" ```
    
-  If you want to change the commit message manually.
+  If you want to change the commit message manually.    
   ``` git commit --amend```
 
