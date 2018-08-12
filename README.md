@@ -74,9 +74,12 @@ git push -u origin master
 * If you want to add your missing file with your last commit without modifying your commit message.   
   ```git commit --amend --no-edit ```
   
-  But if you want to change the commit message too.  
+* But if you want to change the commit message too.  
    ```git commit --amend -m "New commit message" ```
    
-  If you want to change the commit message manually.    
+* If you want to change the commit message manually.    
   ``` git commit --amend```
+* Tag using a specific commit id
+  ```git tag -a Tag_name Tag_ID -m "Message here"```
+
 
