@@ -83,6 +83,6 @@ git push -u origin master
   ```git tag -a Tag_name Tag_ID -m "Message here"```
 
 * Ignore files that have already been committed to the repo
-```git rm -r --cached .
-   git add .
-   git commit -m "Clean up ignored files" ```
+``` git rm -r --cached ```
+``` git add ```
+``` git commit -m "Clean up ignored files" ```
