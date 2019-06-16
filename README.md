@@ -50,6 +50,9 @@ git push -u origin master
     
     Delete tag from local ```git tag -d TAG_VERSION/ID```
     
+    OR
+     ``` tag --delete Tag_Name```
+     
     Delete tag from remote ```git push --delete origin tagName```
 * To unstage the file which is added by git add command 
 
