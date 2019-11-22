@@ -84,6 +84,9 @@ git push -u origin master
   ``` git commit --amend```
 * Tag using a specific commit id
   ```git tag -a Tag_name Tag_ID -m "Message here"```
+* Delete a local commit. (Here 1 is numbr of commit we want to delete)
+
+  ```git reset --hard HEAD~1```
 
 * Ignore files that have already been committed to the repo
 
