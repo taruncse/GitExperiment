@@ -98,5 +98,5 @@ git push -u origin master
     
 * Delete a git commit but keep the changes
 
-    ``` git reset HEAD^ . ```
+    ``` git reset HEAD^  ```
 
