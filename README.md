@@ -95,3 +95,8 @@ git push -u origin master
     ``` git add . ```
 
     ``` git commit -m "Clean up ignored files" ```
+    
+* Delete a git commit but keep the changes
+
+    ``` git reset HEAD^ . ```
+
