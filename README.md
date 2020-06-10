@@ -102,18 +102,18 @@ git push -u origin master
 
 * Remove any versioned file from git track
 
-*Firstly add that file to .gitignore file , then write following command*
+  *Firstly add that file to .gitignore file , then write following command*
 
-*Remove file from version controll*
+  *Remove file from version controll*
 
-```
-git rm --cached -r fileNameWithExtension(Use dot(.) to remove all)
+    ```
+    git rm --cached -r fileNameWithExtension(Use dot(.) to remove all)
 
-```
-```
-git add .
-```
-```
-git commit -m "message"
+    ```
+    ```
+    git add .
+    ```
+    ```
+    git commit -m "message"
 
-```
+    ```
