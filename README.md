@@ -117,3 +117,9 @@ git push -u origin master
     git commit -m "message"
 
     ```
+* To get all the commit history
+
+    ```
+    git log
+
+    ```
