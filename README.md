@@ -107,7 +107,7 @@ git push -u origin master
   *Remove file from version controll*
 
     ```
-    git rm --cached -r fileNameWithExtension(Use dot(.) to remove all)
+    git rm --cached -r fileNameWithExtension(Or Use dot(.) to remove all)
 
     ```
     ```
