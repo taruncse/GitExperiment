@@ -100,3 +100,20 @@ git push -u origin master
 
     ``` git reset HEAD^  ```
 
+* Remove any versioned file from git track
+
+*Firstly add that file to .gitignore file , then write following command
+
+*Remove file from version controll 
+
+```
+git rm --cached -r fileNameWithExtension(Use dot(.) to remove all)
+
+```
+```
+git add .
+```
+```
+git commit -m "message"
+
+```
