@@ -123,3 +123,25 @@ git push -u origin master
     git log
 
     ```
+* Change user name for a specific folder / project / whole computer
+
+To set your account's default identity globally run below commands
+
+```
+git config --global user.email "you@example.com"
+git config --global user.name "Your Name"
+git config --global user.password "your password"
+```
+
+For local :
+
+```
+git config user.email "you@example.com"
+git config user.name "Your Name"
+git config user.password "your password"
+```
+Check Configuration
+
+```
+git config --list
+```
