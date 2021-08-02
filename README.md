@@ -140,8 +140,13 @@ git config user.email "you@example.com"
 git config user.name "Your Name"
 git config user.password "your password"
 ```
-Check Configuration
+Check Configuration:
 
 ```
 git config --list
+```
+
+Show all the available commit in a branch:
+```
+git log --reflog
 ```
